@@ -38,7 +38,6 @@ def unix_time(function):
 def factors():
     """Reads a file to print out all the factors of a number"""
     with open(sys.argv[1], 'r') as prime:
-        print("Open")
         line = prime.readline()
         while line != '':
             n = int(line)
